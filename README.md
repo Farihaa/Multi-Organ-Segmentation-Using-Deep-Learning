@@ -3,7 +3,7 @@ NiftyNet framework based on Tensorfow was used for this project.
 ```bash
 pip install niftynet
 ```
-##Dataset
+## Dataset
 Dataset was acquired from MICCAI 2012, MRBrains18 and ADNI.
 
 ## Preprocessing
@@ -15,5 +15,8 @@ pip install SimpleITK
 Furthermore, data was increased by collecting it from various sites like MICCAI 2012, MRBRains18 and ADNI. Some images came with their annotations
 but some of them had to be segmented manually for training. [ITKSNAP](http://www.itksnap.org/pmwiki/pmwiki.php) was used for manual annptations of 3D images.
 
-#Deep Learning Network
+## Deep Learning Network
 HighRes3D Networks were used for segmentation of 3 regions and 8 regions respectively. Checkpoints have been uploaded.
+
+## Results
+Dice score of 0.957 and 0.776 was achieved for 3 brain regions and 8 brain regions respectively.
